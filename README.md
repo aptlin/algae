@@ -34,6 +34,19 @@
   - If the coloured tail is of length 1, colour the parent (original vertex) and child (the tip of the tail) nodes in black, increasing the counter for the size of the minimum vertex cover.
   - If the vertex does not have a tail, just colour it in black.
 
+### Clustering ([Python](/graph/clustering/))
+
+- [Agglomerative Algorithm](/graph/clustering/clustering.py)
+
+  - Description:
+
+  1. Sort the edges by weight
+  2. Start building an MST, just like in Kruskal's algorithm, which automatically sorts your vertices into clusters
+  3. Stop when you have the number of clusters you need
+
+- [k-Means Algorithm](/graph/clustering/clustering.py)
+  - [Description](https://jakevdp.github.io/PythonDataScienceHandbook/05.11-k-means.html)
+
 ## Further Resources
 
 - [Awesome Algorithms](https://github.com/tayllan/awesome-algorithms#readme)
